@@ -5,7 +5,7 @@ from sqlalchemy import and_
 
 session = SessionLocal()
 
-print("=== Consulta con and(): Historias de Carlos posteriores al 2025-01-01 ===")
+print(" Consulta con and(): Historias de Carlos posteriores al 2025-01-01 ")
 resultados = session.query(HistoriaClinica).join(Veterinario).filter(
     and_(
         Veterinario.nombres == "Carlos",

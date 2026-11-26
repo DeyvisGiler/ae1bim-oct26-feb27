@@ -35,4 +35,4 @@ session.add_all([hist1, hist2, hist3, hist4])
 session.commit()
 
 session.close()
-print("✅ Datos insertados correctamente.")
+print(" Datos insertados correctamente.")

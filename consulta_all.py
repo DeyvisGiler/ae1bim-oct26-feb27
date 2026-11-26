@@ -4,7 +4,7 @@ from crear_base_entidades import Clinica
 
 session = SessionLocal()
 
-print("=== Consulta con all(): Clínicas y número de Historias Clínicas ===")
+print(" Consulta con all(): Clínicas y número de Historias Clínicas ")
 clinicas = session.query(Clinica).all()
 for clinica in clinicas:
     total = 0

@@ -5,7 +5,7 @@ from sqlalchemy import or_
 
 session = SessionLocal()
 
-print("=== Consulta con or(): Clínicas con responsable Ana o Luis ===")
+print(" Consulta con or(): Clínicas con responsable ")
 resultados = session.query(Clinica).filter(
     or_(
         Clinica.medico_responsable.like("%Ana%"),

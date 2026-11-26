@@ -43,4 +43,4 @@ class HistoriaClinica(Base):
 
 if __name__ == "__main__":
     Base.metadata.create_all(engine)
-    print("✅ Tablas creadas correctamente en clinica_veterinaria.db")
+    print("Tablas creadas correctamente en clinica_veterinaria.db")
